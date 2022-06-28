@@ -1,0 +1,15 @@
+{
+    "extends": "standard-with-typescript",
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "overrides": [
+        {
+            "files": ["*.ts"],
+            "rules": {
+                "@typescript-eslint/indent": ["error", 4],
+                "semi": ["error", "always"]
+          }
+        }
+      ]
+}
